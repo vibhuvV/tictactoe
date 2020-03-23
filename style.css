@@ -1,0 +1,80 @@
+body {
+	height: 90vh;
+	margin: 0;
+	padding: 0;
+}
+#yoyo {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div#container {
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+	cursor: pointer;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+div#banner {
+	color: white;
+	display: none;
+	position: absolute;
+	width: 200px;
+	top: 100px;
+	left: 0;
+	right: 0;
+	margin: 20px auto;
+	padding: 30px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: rgba(25, 55, 55, 0.8);
+}
+
+button {
+	color: white;
+	background-color: teal;
+	border: none;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	outline: none;
+	box-shadow: teal 0px 0px 10px 0.5px;
+}
+
+button:hover {
+	background-color: turquoise;
+	box-shadow: turquoise 0px 0px 15px 0.5px;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 5rem;
+	cursor: pointer;
+	user-select: none;
+}
+
+.hor-bottom {
+	border-bottom: 2px solid #000;
+}
+
+.hor-top {
+	border-top: 2px solid #000;
+}
+
+.ver-left {
+	border-left: 2px solid #000;
+}
+
+.ver-right {
+	border-right: 2px solid #000;
+}
